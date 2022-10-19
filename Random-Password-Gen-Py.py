@@ -15,4 +15,4 @@ password = "".join(random.sample(string,length))
 
 #printing
 ready = input ("Are You Ready to See your Password:")
-print ("Your Password is:" + password)
+print ("Here is your Password:" + password)
