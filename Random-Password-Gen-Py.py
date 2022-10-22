@@ -15,4 +15,16 @@ password = "".join(random.sample(string,length))
 
 #printing
 ready = input ("Are You Ready to See your Password:")
-print ("Here is your Password:" + password)
+if ready.lower() == 'no':
+    print ("ok")
+
+elif ready.lower() == 'yes':
+    print ("Here is your password" + password)
+
+else:
+    yesorno = input ("Yes or No:")
+
+if yesorno.lower() == 'no':
+    print("Ok")
+elif yesorno.lower() == 'yes':
+    print("Here is your Password" + password)
